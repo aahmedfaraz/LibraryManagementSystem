@@ -82,6 +82,12 @@ namespace Library_Management_System
             form.ShowDialog();
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AdminStudent form = new AdminStudent(admin.id);
+            form.ShowDialog();
+        }
+
         private void button7_Click(object sender, EventArgs e)
         {
             this.Hide();
